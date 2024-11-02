@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Variables
-zip_file="protected.zip"    # The zip file you want to crack
-password_list="passwords.txt"  # File with list of passwords
+zip_file="ctf.zip"    # The zip file you want to crack
+	password_list="list.txt"  # File with list of passwords
 
 # Check if both files exist
 if [[ ! -f "$zip_file" ]]; then
